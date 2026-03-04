@@ -53,6 +53,17 @@ These events simulate different stages of a potential attack in an Active Direct
 
 ---
 
+## MITRE ATT&CK Mapping
+
+| Event ID | Detection | MITRE Technique |
+|---------|----------|----------------|
+4625 | Failed logon attempts | T1110 – Brute Force |
+4720 | User account creation | T1136 – Create Account |
+4728 | Added to Domain Admins | T1098 – Account Manipulation |
+4104 | PowerShell execution | T1057 – Process Discovery |
+
+---
+
 # Custom Detection – Brute Force (Rule ID 110200)
 
 A custom **Wazuh correlation rule** was created to detect brute force attempts.
