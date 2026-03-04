@@ -29,7 +29,7 @@ PowerShell Script Block Logging was enabled to provide deeper visibility into Po
 ### Lab Architecture
 The diagram below shows the architecture of the lab environment and how security events are collected and processed by Wazuh.
 
-![Lab Architecture](Wazuh-lab/Screenshots/agents/01_lab_architecture.png)
+![Lab Architecture](/Screenshots/Agents/01_lab_architecture.png)
 
 ### Simulated Security Events
 The following Windows Security events were generated and analyzed during the lab:
